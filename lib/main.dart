@@ -1,5 +1,7 @@
+import 'package:belajar_navigation_bar/widget/widget023.dart';
 import 'package:belajar_navigation_bar/widget/widget028.dart';
 import 'package:belajar_navigation_bar/widget/widget029.dart';
+import 'package:belajar_navigation_bar/widget/widget030.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -14,7 +16,9 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       // home: Widget028(),
-      home: Widget029(),
+      // home: Widget029(),
+      // home: Widget023(),
+      home: Widget030(),
     );
   }
 }
